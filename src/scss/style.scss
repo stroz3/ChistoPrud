@@ -104,7 +104,7 @@ $subtitle-text:#647193;
 /*Готовые стили*/
 
 .btn{
-    padding:25px;
+    padding:35px;
     color: $white;
     font-family: 'Montserrat';
     font-style: normal;
@@ -148,14 +148,6 @@ $subtitle-text:#647193;
     padding-right: 20px;
 }
 
-.company,
-.services,
-.about,
-.cases,
-.command,
-.reviews{
-    padding-top: 60px;
-}
 
 .container-fluid{
     margin: 0 auto;
@@ -331,6 +323,7 @@ $subtitle-text:#647193;
     &__body {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
         width: 50%;
     }
 
@@ -382,7 +375,7 @@ $subtitle-text:#647193;
 /*Services*/ 
 
 .services {
-
+    padding-top: 50px;
     &__wrapper {
     }
 
@@ -481,7 +474,7 @@ $subtitle-text:#647193;
 
 .about {
     margin-top: 80px;
-    padding-top: 45px;
+    padding-top: 50px;
     padding-bottom: 45px;
     background: #DCE3F5;
     border-radius: 472.5px;
@@ -562,7 +555,7 @@ $subtitle-text:#647193;
 
 .cases {
     
-    margin-top: 100px;    
+    padding-top: 100px;    
 
 
     &__title {
@@ -677,6 +670,7 @@ $subtitle-text:#647193;
 /*Swiper*/ 
 .swiper {
     padding-top: 40px;
+    padding-bottom: 150px;
     width: 100%;
     height: 100%;
     min-height: 500px;
@@ -686,7 +680,7 @@ $subtitle-text:#647193;
     width: 300px ;
     max-height: 460px;
     padding: 20px;
-    transition: margin 1s ease;
+    transition: transform 1s ease;
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
@@ -695,10 +689,10 @@ $subtitle-text:#647193;
     // margin-right: 80px !important;
   }
   .swiper-slide-prev{
-    margin-top:70px !important;
+    transform: translateY(70px) !important;
   }
   .swiper-slide-next{
-    margin-top: 150px !important;
+    transform: translateY(150px) !important;
   }
   .swiper-button-next{
     left: 67px;
@@ -730,7 +724,7 @@ $subtitle-text:#647193;
     margin-top: 80px;
     margin-bottom: 20px;
     padding-bottom: 60px;
-    padding-top: 40px;
+    padding-top: 50px;
     &__item-title, &__item-subtitle{
         font-family: 'Montserrat';
         font-style: normal;
@@ -782,7 +776,7 @@ $subtitle-text:#647193;
 /*reviews*/ 
 .reviews {
     
-    margin-top: 50px;
+    padding-top: 50px;
     margin-bottom: 150px;
     &__title {
         text-align: right;
@@ -917,22 +911,28 @@ $subtitle-text:#647193;
     &__form-container{
         display: flex;
         justify-content: flex-end;
+        width: 36%;
+        margin-right: 0;
     }
     &__form-item {
         margin-top: 30px;
         position: relative;
+        
     }
 
     &__item-title {
         font-weight: 700;
         font-size: 30px;
+        width: 90%;
     }
     &__item-title,&__item-subtitle, &__item-input input, &__item-label {
         font-family: 'Montserrat';
         font-style: normal;
         line-height: 150%;
     }
-
+    &__item-label{
+        width: 250px;
+    }
     &__item-subtitle, &__item-input input {
         font-weight: 400;
         font-size: 17px;
@@ -961,7 +961,7 @@ $subtitle-text:#647193;
     }
     &__item-map {
         overflow: hidden;
-        width: 100%;
+        width: 60%;
         border-radius: 200px 0px 0px 0px ;
     }
     &__map{
@@ -1052,8 +1052,8 @@ $subtitle-text:#647193;
     }
     &__item-btn{
         position: absolute;
-        bottom: -35px;
-    right: -105px;
+        bottom: -120px;
+        right: -70px;
     margin: 0 auto;
     z-index: 9;
     }
@@ -1105,6 +1105,7 @@ $subtitle-text:#647193;
   }
 .check{
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 .item-telephone{
     a{
@@ -1190,7 +1191,6 @@ color: #647193;
         }
     }
     .services{
-        margin-top: 20px;
         &__subtitle-text{
             font-size: 15px;
         }
@@ -1241,7 +1241,7 @@ color: #647193;
         }
     }
     .cases{
-        margin-top: 50px;
+        padding-top: 50px;
         &__body{
             
         }
@@ -1262,13 +1262,13 @@ color: #647193;
       }
      
     .swiper-slide-prev{
-          margin-top: -30px !important;
+        transform: translateY(-30px) !important;
     }
     .swiper-slide-active{
-        margin-top: 100px !important;
+        transform: translateY(100px) !important;
     }
     .swiper-slide-next{
-          margin-top: 0px !important;
+        transform: translateY(0px) !important;
       }
       .swiper-slide-duplicate-prev{
         margin-left: 0px;
@@ -1278,9 +1278,11 @@ color: #647193;
       }
       .footer__form-container{
         justify-content: flex-start;
+        margin-right: auto;
+        width: 100%;
     }
     .footer__form-item{
-        width: 60%;
+        width: 56%;
         margin-bottom: 50px;
     }
     .footer__item-btn{
@@ -1322,16 +1324,12 @@ color: #647193;
             width: 60%;
         }
     }
+    .footer__item-map{
+        width: 100%;
+    }
 }
 @media (max-width: 1000px) {
-    .company,
-.services,
-.about,
-.cases,
-.command,
-.reviews{
-    padding-top: 80px;
-}
+
     .header{
         &__menu{
             background: rgba(1, 6, 20, 0.7);
@@ -1533,7 +1531,7 @@ color: #647193;
         bottom: -270px;
       }
       .swiper{
-        padding-bottom: 80px;
+        padding-bottom: 140px;
       }
       .swiper-button-next{
         left: 130px;
@@ -1638,7 +1636,6 @@ color: #647193;
         height: 9px;
     }
     .services{
-        margin-top: 30px;
         &__title{
             font-size: 40px;
         }
@@ -1729,7 +1726,7 @@ color: #647193;
     .swiper-slide-prev,
   .swiper-slide-active,
   .swiper-slide-next{
-        margin-top: 0px !important;
+    transform: translateY(0px) !important;
     }
     .swiper-button-next{
         bottom: -185px;
@@ -1827,6 +1824,9 @@ color: #647193;
             font-size: 20px;
         }
     }
+    .swiper{
+        padding-bottom: 75px;
+    }
     
 }
 @media (max-width: 480px) {
@@ -1865,7 +1865,6 @@ color: #647193;
         width: 320px;
     }
     .services{
-        margin-top: 40px;
         &__body-item{
             &:last-child{
                 border-radius: 0px 0px 80px 0px;
@@ -1921,9 +1920,12 @@ color: #647193;
             bottom: -145px;
         }
     }
+    .footer__item-btn{
+        padding: 0;   
+    p{
+            display: block;
+            position: absolute;
+            bottom: -145px;
+        }
+    }
 }
-@media (max-width: 360px) {
-
-}
-
-/*Media*/ 

@@ -23,6 +23,7 @@ if (iconMenu) {
     })
 }
 
+
 const anchors = document.querySelectorAll('a.item-link')
 
 for (let anchor of anchors) {
@@ -30,7 +31,6 @@ for (let anchor of anchors) {
         e.preventDefault()
 
         const blockID = anchor.getAttribute('href')
-        console.log(iconMenu.classList.contains('_acitve'));
         if (iconMenu.classList.contains('_active')) {
             iconMenu.classList.remove("_active");
             menuBody.classList.remove("_active");
@@ -38,11 +38,17 @@ for (let anchor of anchors) {
 
         document.querySelector(blockID).scrollIntoView({
             behavior: 'smooth',
-            block: 'start'
+            block: "start", inline: "nearest"
         })
 
     })
 }
+// Кнопка Наверх 
+// $("a[href='#top']").click(function() {
+//     $("html, body").animate({ scrollTop: 0 }, "slow");
+//     return false;
+//   });
+
 let loadMoreBtn = document.querySelector('#load-more-btn');
 let currentItem = 4;
 

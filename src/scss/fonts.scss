@@ -715,13 +715,6 @@
 @font-face{
 	font-family: Montserrat;
 	font-display: swap;
-	src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
-	font-weight: 300;
-	font-style: normal;
-}
-@font-face{
-	font-family: Montserrat;
-	font-display: swap;
 	src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
 	font-weight: 600;
 	font-style: normal;
@@ -729,7 +722,14 @@
 @font-face{
 	font-family: Montserrat;
 	font-display: swap;
-	src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
+	src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face{
+	font-family: Montserrat;
+	font-display: swap;
+	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -743,7 +743,7 @@
 @font-face{
 	font-family: Montserrat;
 	font-display: swap;
-	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+	src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -799,48 +799,6 @@
 @font-face{
 	font-family: Montserrat;
 	font-display: swap;
-	src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
-	font-weight: 300;
-	font-style: normal;
-}
-@font-face{
-	font-family: Montserrat;
-	font-display: swap;
-	src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face{
-	font-family: NotoSans;
-	font-display: swap;
-	src: url("../fonts/NotoSans-Bold.woff2") format("woff2"), url("../fonts/NotoSans-Bold.woff") format("woff");
-	font-weight: 600;
-	font-style: normal;
-}
-@font-face{
-	font-family: Montserrat;
-	font-display: swap;
-	src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
-	font-weight: 600;
-	font-style: normal;
-}
-@font-face{
-	font-family: NotoSans;
-	font-display: swap;
-	src: url("../fonts/NotoSans-Regular.woff2") format("woff2"), url("../fonts/NotoSans-Regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face{
-	font-family: Montserrat;
-	font-display: swap;
-	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face{
-	font-family: Montserrat;
-	font-display: swap;
 	src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
 	font-weight: 600;
 	font-style: normal;
@@ -860,10 +818,10 @@
 	font-style: normal;
 }
 @font-face{
-	font-family: Montserrat;
+	font-family: NotoSans;
 	font-display: swap;
-	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
-	font-weight: 400;
+	src: url("../fonts/NotoSans-Bold.woff2") format("woff2"), url("../fonts/NotoSans-Bold.woff") format("woff");
+	font-weight: 600;
 	font-style: normal;
 }
 @font-face{
@@ -874,9 +832,9 @@
 	font-style: normal;
 }
 @font-face{
-	font-family: NotoSans;
+	font-family: Montserrat;
 	font-display: swap;
-	src: url("../fonts/NotoSans-Bold.woff2") format("woff2"), url("../fonts/NotoSans-Bold.woff") format("woff");
-	font-weight: 600;
+	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+	font-weight: 400;
 	font-style: normal;
 }
