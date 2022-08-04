@@ -5,8 +5,14 @@
 })
 
 <body>
-    @@include('html/header.html',{})
-    @@include('html/footer.html',{})
+    <div class="wrapper">
+        @@include('html/header-about.html',{})
+        @@include('html/info.html',{})
+        @@include('html/footer.html',{})
+    </div>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/app.min.js"></script>
 </body>
 
 </html>

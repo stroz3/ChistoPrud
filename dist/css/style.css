@@ -1008,6 +1008,198 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-display: swap;
+  src: url("../fonts/NotoSans-Bold.woff2") format("woff2"), url("../fonts/NotoSans-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-display: swap;
+  src: url("../fonts/NotoSans-Regular.woff2") format("woff2"), url("../fonts/NotoSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-display: swap;
+  src: url("../fonts/NotoSans-Bold.woff2") format("woff2"), url("../fonts/NotoSans-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-display: swap;
+  src: url("../fonts/NotoSans-Regular.woff2") format("woff2"), url("../fonts/NotoSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-display: swap;
+  src: url("../fonts/NotoSans-Bold.woff2") format("woff2"), url("../fonts/NotoSans-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-display: swap;
+  src: url("../fonts/NotoSans-Regular.woff2") format("woff2"), url("../fonts/NotoSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-display: swap;
+  src: url("../fonts/NotoSans-Bold.woff2") format("woff2"), url("../fonts/NotoSans-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-display: swap;
+  src: url("../fonts/NotoSans-Regular.woff2") format("woff2"), url("../fonts/NotoSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*���������*/
 
 * {
@@ -1127,7 +1319,7 @@ h6 {
 /*Готовые стили*/
 
 .btn {
-  padding: 35px;
+  padding: 28px;
   color: white;
   font-family: "Montserrat";
   font-style: normal;
@@ -1189,7 +1381,7 @@ h6 {
 /*Header*/
 
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -1259,7 +1451,6 @@ h6 {
 
 .company {
   position: relative;
-  margin-top: 80px;
   background-color: #0F2150;
   border-radius: 0px 0px 0px 325px;
 }
@@ -1312,6 +1503,84 @@ h6 {
 
 .company__item-btn {
   margin-top: 50px;
+}
+
+.company__wrapper-about {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  color: white;
+}
+
+.company__href {
+  color: #CDD4E9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.company__href-link:first-child {
+  margin-right: 5px;
+}
+
+.company__href-link:last-child {
+  margin-left: 5px;
+}
+
+.company__href-link a {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #CDD4E9;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.company__href-link a:hover {
+  color: #647193;
+}
+
+.company__item-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: white;
+}
+
+.company__item-subtitle {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.company__body {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.company__item:first-child .company__item-icon {
+  display: none;
+}
+
+.info {
+  border-radius: 0px 0px 0px 257px;
+}
+
+.about-description {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 170%;
+  color: #CDD4E9;
+  width: 86%;
 }
 
 .item-img {
@@ -1967,7 +2236,7 @@ h6 {
 
 .reviews__prev-arrow {
   left: -167px !important;
-  bottom: -120px;
+  bottom: -100px;
 }
 
 .reviews__next-arrow,
@@ -1982,7 +2251,7 @@ h6 {
 .show-more {
   position: absolute;
   right: 60px;
-  bottom: 19px;
+  bottom: 23px;
 }
 
 .btn-more {
@@ -1996,9 +2265,9 @@ h6 {
   overflow: hidden;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
-  line-height: 1em;
+  line-height: 150%;
   display: -webkit-box;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2006,7 +2275,7 @@ h6 {
 }
 
 .showContent {
-  line-height: 1em;
+  line-height: 150%;
   height: auto !important;
   -webkit-transition: height 1s ease;
   -o-transition: height 1s ease;
@@ -2043,6 +2312,7 @@ h6 {
 .footer__form-item {
   margin-top: 30px;
   position: relative;
+  width: 100%;
 }
 
 .footer__item-title {
@@ -2222,6 +2492,7 @@ h6 {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  cursor: pointer;
 }
 
 .custom-checkbox:checked + label::before {
@@ -2287,6 +2558,266 @@ h6 {
 
 /*Footer*/
 
+/*advantages*/
+
+.advantages {
+  margin-top: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  color: black;
+}
+
+.advantages__item-btn {
+  text-align: center;
+}
+
+.advantages__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.advantages__item {
+  text-align: center;
+  border-left: 1px solid #DCE3F5;
+  width: 30%;
+  padding: 0px 50px;
+}
+
+.advantages__item:last-child {
+  border-right: 1px solid #DCE3F5;
+}
+
+.advantages__item-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.advantages__item-description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*advantages*/
+
+/*Price*/
+
+.price {
+  margin-top: 30px;
+  margin-bottom: 240px;
+}
+
+.price__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-family: "Montserrat";
+  font-style: normal;
+  line-height: 150%;
+}
+
+.price__block {
+  width: 50%;
+  position: relative;
+}
+
+.price__item-img {
+  position: absolute;
+  left: inherit;
+  right: -280px;
+}
+
+.price__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.price__body-item {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.price__item-text {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.price__item-numbers {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/*Price*/
+
+/*Popup*/
+
+.popup {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2)));
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  z-index: 100;
+  opacity: 0;
+  -webkit-transition-property: opacity, height;
+  -o-transition-property: opacity, height;
+  transition-property: opacity, height;
+  -webkit-transition-duration: 1s, 0s;
+       -o-transition-duration: 1s, 0s;
+          transition-duration: 1s, 0s;
+  -webkit-transition-delay: 0s, 0.7s;
+       -o-transition-delay: 0s, 0.7s;
+          transition-delay: 0s, 0.7s;
+}
+
+.popup__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+.popup__wrapper {
+  z-index: 22;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup__menu {
+  width: 800px;
+  margin: auto;
+  z-index: 2;
+}
+
+.popup__wrapper-header {
+  width: 100%;
+  height: 50px;
+  background-color: #0F2150;
+  position: relative;
+}
+
+.popup__header-cross {
+  position: absolute;
+  right: 25px;
+  top: 0px;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.popup__header-cross:hover {
+  opacity: 0.3;
+}
+
+.popup__header-cross::after,
+.popup__header-cross::before {
+  position: absolute;
+  left: 5px;
+  content: " ";
+  height: 15px;
+  width: 2px;
+  background-color: white;
+}
+
+.popup__header-cross::before {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.popup__header-cross::after {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.popup__wrapper-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.popup__wrapper-item {
+  width: 100%;
+}
+
+.popup__wrapper-item:last-child {
+  padding: 30px 25px;
+  background-color: white;
+}
+
+.popup__form-item {
+  width: 100% !important;
+}
+
+.popup__form-btn {
+  bottom: -220px !important;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.popup_opened {
+  visibility: visible;
+  height: 100%;
+  opacity: 1;
+  -webkit-transition-delay: 0s, 0s;
+       -o-transition-delay: 0s, 0s;
+          transition-delay: 0s, 0s;
+}
+
+/*Popup*/
+
 /*Media*/
 
 @media (min-width: 320px) {
@@ -2303,6 +2834,10 @@ h6 {
   }
 
   .header__menu-icon {
+    display: none;
+  }
+
+  .container-fluid .price__title.hidden {
     display: none;
   }
 }
@@ -2327,9 +2862,20 @@ h6 {
   }
 }
 
+@media (max-width: 1500px) {
+  .info {
+    border-radius: 0px 0px 0px 150px;
+  }
+}
+
 @media (max-width: 1300px) {
   .about {
     border-radius: 100px;
+  }
+
+  .info {
+    border-radius: 0px !important;
+    height: 100% !important;
   }
 }
 
@@ -2518,6 +3064,26 @@ h6 {
   .footer__item-map {
     width: 100%;
   }
+
+  .company__item:last-child {
+    margin-top: auto;
+  }
+
+  .advantages__item:first-child {
+    border-left: none;
+  }
+
+  .advantages__item:last-child {
+    border-right: none;
+  }
+
+  .price__body {
+    width: 100%;
+  }
+
+  .popup__form-btn {
+    right: 0px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -2681,6 +3247,19 @@ h6 {
             justify-content: flex-start;
   }
 
+  .company__item:first-child .company__item-icon {
+    display: block;
+  }
+
+  .company__item:last-child .company__item-icon {
+    display: none;
+  }
+
+  .about-description {
+    width: 100% !important;
+    padding-bottom: 0px;
+  }
+
   .item-img {
     top: 110px;
     right: inherit;
@@ -2786,17 +3365,13 @@ h6 {
   }
 
   .swiper-button-next {
-    left: 130px;
-    bottom: -234px;
+    left: 67px;
+    bottom: -244px;
   }
 
   .swiper-button-prev {
-    left: -131px;
-    bottom: -292px;
-  }
-
-  .reviews__prev-arrow {
-    bottom: -105px;
+    left: -167px;
+    bottom: -302px;
   }
 
   .footer__nav:nth-child(2) {
@@ -2805,7 +3380,79 @@ h6 {
 
   .footer__nav:nth-child(2) .footer__item {
     margin-left: 0;
-    margin-right: x0px;
+    margin-right: 0px;
+  }
+
+  .advantages__body {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .advantages__item {
+    padding-top: 20px;
+    width: 50%;
+  }
+
+  .advantages__item:nth-child(3) {
+    border-left: none;
+  }
+
+  .advantages__item-title {
+    font-size: 17px;
+  }
+
+  .advantages__item-description {
+    font-size: 15px;
+  }
+
+  .price {
+    margin-bottom: 60px;
+  }
+
+  .price__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .price__block {
+    width: 100%;
+  }
+
+  .price__item-img {
+    position: static;
+    -webkit-transform: translateX(-15%);
+        -ms-transform: translateX(-15%);
+            transform: translateX(-15%);
+  }
+
+  .price__body-item {
+    margin-top: 35px;
+  }
+
+  .container-fluid .price__title.hidden {
+    display: block;
+    text-align: right;
+  }
+
+  .container-fluid .price__title {
+    display: none;
+  }
+
+  .popup__wrapper-item:first-child {
+    display: none;
+  }
+
+  .popup__form-btn {
+    top: 75px !important;
+    right: 0px !important;
+    left: inherit !important;
+    margin: auto !important;
+  }
+
+  .popup__menu {
+    padding: 20px;
   }
 }
 
@@ -2861,6 +3508,23 @@ h6 {
 
   .company__items-wrapper:last-child {
     text-align: center;
+  }
+
+  .company__item-icon img {
+    width: 201px;
+    height: 201px;
+  }
+
+  .company__item-title {
+    font-size: 30px;
+  }
+
+  .company__item-subtitle {
+    font-size: 17px;
+  }
+
+  .about-description {
+    font-size: 15px;
   }
 
   .company-text {
@@ -3047,12 +3711,12 @@ h6 {
   }
 
   .hideContent {
-    height: 8em;
-    -webkit-line-clamp: 8;
+    height: 9em;
+    -webkit-line-clamp: 6;
   }
 
   .show-more {
-    bottom: 9px;
+    bottom: 12px;
   }
 
   .footer__item-label {
@@ -3145,6 +3809,33 @@ h6 {
 
   .swiper {
     padding-bottom: 75px;
+  }
+
+  .advantages__item {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-left: none;
+    border-top: 1px solid #DCE3F5;
+    width: 100%;
+  }
+
+  .advantages__item:first-child {
+    border-top: none;
+  }
+
+  .price__item-img {
+    position: static;
+    -webkit-transform: translateX(-30%);
+        -ms-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+
+  .price__item-text {
+    font-size: 15px;
+  }
+
+  .price__item-numbers {
+    font-size: 25px;
   }
 }
 
@@ -3272,5 +3963,19 @@ h6 {
     display: block;
     position: absolute;
     bottom: -145px;
+  }
+
+  .price__item-img {
+    position: static;
+    -webkit-transform: translateX(-30%);
+        -ms-transform: translateX(-30%);
+            transform: translateX(-30%);
+    width: 850px;
+  }
+
+  .popup__form-btn {
+    top: 180px !important;
+    left: 0 !important;
+    right: 0 !important;
   }
 }

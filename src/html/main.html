@@ -1,3 +1,4 @@
+
 <main class="main">
     <section class="company" id="company">
         <div class="container company__wrapper">
@@ -17,7 +18,7 @@
                         </p>
                     </div>
                     <div class="company__item company-btn">
-                        <button class="company__item-btn btn btn-transperent">
+                        <button class="company__item-btn btn btn-transperent" id="openModal">
                             Заказать звонок
                         </button>
                     </div>
@@ -69,12 +70,12 @@
         </div>
     </section>
     <section class="services" id="services">
-        <div class="container services__wrapper">
+        <div class="container services__wrapper" >
             <div class="services__title title" >
                 Наши услуги<sup class="item-title"></sup>
             </div>
             <div class="services__body">
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Арбитражные дела</div> 
@@ -94,7 +95,7 @@
                         80 000 — 300 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Гражданские дела</div> 
@@ -114,7 +115,7 @@
                         65 000 — 239 999 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Семейные споры</div> 
@@ -134,7 +135,7 @@
                         33 000 — 125 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Банкротство</div> 
@@ -154,7 +155,7 @@
                         15 000 — 259 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Административные дела</div> 
@@ -174,7 +175,7 @@
                         110 000 — 1 000 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Уголовные дела</div> 
@@ -194,7 +195,7 @@
                         138 000 — 540 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Защита прав потребителей</div> 
@@ -214,7 +215,7 @@
                         112 000 — 432 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                         <div class="services__item-wrapper">
                             <div class="services__item-subtitle ">
                                 <div class="services__subtitle-text item__last-subtitle">Автоюрист</div> 
@@ -588,3 +589,40 @@
         </div>
     </section>
 </main>
+
+<div class="popup" id="myModal">
+    <div class="popup__wrapper" >
+        <div class="popup__menu">
+            <div class="popup__wrapper-header">
+                <span class="popup__header-cross" id="closeModal"></span>
+            </div>
+            <div class="popup__wrapper-body">
+                <div class="popup__wrapper-item">
+                    <img src="img/Rectangle17.png" class="popup__item-img" alt="">    
+                </div>
+                <div class="popup__wrapper-item">
+                    <form class="popup__item-form" action="" method="post">
+                        <div class="popup__form-item footer__form-item">
+                                <div class="popup__form-input footer__item-input">
+                                    <input required type="text" placeholder="Имя" id="">
+                                </div>
+                                <div class="popup__form-input footer__item-input">
+                                    <input required type="tel" placeholder="Телефон" id="">
+                                </div>
+                                <div class="popup__form-input footer__item-input">
+                                    <input required type="mail" placeholder="gurovafe@gmail.com" id="">
+                                </div>
+                                <div class="popup__form-input footer__item-input check">
+                                    <input required type="checkbox" class="custom-checkbox" placeholder="gurovafe@gmail.com" id="footer__item-checkbox">
+                                    <label for="footer__item-checkbox" class="footer__item-label">Я согласен с условием обработки персональных данных</label>
+                                </div>
+                                <button class="popup__form-btn footer__item-btn btn btn-red">Перезвонить мне</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+        <div class="popup__overlay" id="closeModal"></div>
+    </div>
+</div>

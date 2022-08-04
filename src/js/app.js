@@ -6,11 +6,11 @@ Ivanfunctions.isWebp()
 
 
 
-
-
+const popup = document.querySelector('.popup')
 const iconMenu = document.querySelector(".header__menu-icon");
 const overlayMenu = document.querySelector(".header__overlay");
 const menuBody = document.querySelector(".header__menu")
+
 
 if (iconMenu) {
     iconMenu.addEventListener("click", function (e) {
@@ -24,12 +24,11 @@ if (iconMenu) {
 }
 
 
-const anchors = document.querySelectorAll('a.item-link')
 
+const anchors = document.querySelectorAll('a.item-link')
 for (let anchor of anchors) {
     anchor.addEventListener('click', function (e) {
         e.preventDefault()
-
         const blockID = anchor.getAttribute('href')
         if (iconMenu.classList.contains('_active')) {
             iconMenu.classList.remove("_active");
@@ -43,6 +42,26 @@ for (let anchor of anchors) {
 
     })
 }
+
+
+//Открытие pop-up
+function openPopup() { //открытие popup
+    popup.classList.add('popup_opened');
+}
+
+// Закрытие pop-up
+function closePopup() { //закрытие popup
+    popup.classList.remove('popup_opened');
+}
+
+
+// Кнопки на закрытие и открытие popUp
+document.querySelector("#openModal").addEventListener("click", openPopup)
+document.querySelectorAll("#closeModal").forEach((el) => {
+    el.addEventListener("click", closePopup)
+})
+
+
 // Кнопка Наверх 
 // $("a[href='#top']").click(function() {
 //     $("html, body").animate({ scrollTop: 0 }, "slow");

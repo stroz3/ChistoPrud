@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220801192225"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220804142409"/>
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20220801192225"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20220804142409"/>
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css?_v=20220801192225"/>
-    <link rel="stylesheet" href="css/style.min.css?_v=20220801192225">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css?_v=20220804142409"/>
+    <link rel="stylesheet" href="css/style.min.css?_v=20220804142409">
     <title>Главная</title>
 </head>
 
@@ -81,7 +81,8 @@
     </div>
 </header>
         <!-- <picture><source srcset="img/cover.webp, " type="image/webp"><img width="150" src="img/cover.jpg" alt="" srcset=""></picture> -->
-        <main class="main">
+        
+<main class="main">
     <section class="company" id="company">
         <div class="container company__wrapper">
             <div class="company__subtitle ">
@@ -100,7 +101,7 @@
                         </p>
                     </div>
                     <div class="company__item company-btn">
-                        <button class="company__item-btn btn btn-transperent">
+                        <button class="company__item-btn btn btn-transperent" id="openModal">
                             Заказать звонок
                         </button>
                     </div>
@@ -152,12 +153,12 @@
         </div>
     </section>
     <section class="services" id="services">
-        <div class="container services__wrapper">
+        <div class="container services__wrapper" >
             <div class="services__title title" >
                 Наши услуги<sup class="item-title"></sup>
             </div>
             <div class="services__body">
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Арбитражные дела</div> 
@@ -177,7 +178,7 @@
                         80 000 — 300 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Гражданские дела</div> 
@@ -197,7 +198,7 @@
                         65 000 — 239 999 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Семейные споры</div> 
@@ -217,7 +218,7 @@
                         33 000 — 125 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Банкротство</div> 
@@ -237,7 +238,7 @@
                         15 000 — 259 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Административные дела</div> 
@@ -257,7 +258,7 @@
                         110 000 — 1 000 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Уголовные дела</div> 
@@ -277,7 +278,7 @@
                         138 000 — 540 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                     <div class="services__item-wrapper">
                         <div class="services__item-subtitle">
                             <div class="services__subtitle-text">Защита прав потребителей</div> 
@@ -297,7 +298,7 @@
                         112 000 — 432 000 ₽
                     </div>
                 </a>
-                <a href="" class="services__body-item">
+                <a href="/about.html" class="services__body-item">
                         <div class="services__item-wrapper">
                             <div class="services__item-subtitle ">
                                 <div class="services__subtitle-text item__last-subtitle">Автоюрист</div> 
@@ -671,6 +672,43 @@
         </div>
     </section>
 </main>
+
+<div class="popup" id="myModal">
+    <div class="popup__wrapper" >
+        <div class="popup__menu">
+            <div class="popup__wrapper-header">
+                <span class="popup__header-cross" id="closeModal"></span>
+            </div>
+            <div class="popup__wrapper-body">
+                <div class="popup__wrapper-item">
+                    <picture><source srcset="img/Rectangle17.webp" type="image/webp"><img src="img/Rectangle17.png" class="popup__item-img" alt=""></picture>    
+                </div>
+                <div class="popup__wrapper-item">
+                    <form class="popup__item-form" action="" method="post">
+                        <div class="popup__form-item footer__form-item">
+                                <div class="popup__form-input footer__item-input">
+                                    <input required type="text" placeholder="Имя" id="">
+                                </div>
+                                <div class="popup__form-input footer__item-input">
+                                    <input required type="tel" placeholder="Телефон" id="">
+                                </div>
+                                <div class="popup__form-input footer__item-input">
+                                    <input required type="mail" placeholder="gurovafe@gmail.com" id="">
+                                </div>
+                                <div class="popup__form-input footer__item-input check">
+                                    <input required type="checkbox" class="custom-checkbox" placeholder="gurovafe@gmail.com" id="footer__item-checkbox">
+                                    <label for="footer__item-checkbox" class="footer__item-label">Я согласен с условием обработки персональных данных</label>
+                                </div>
+                                <button class="popup__form-btn footer__item-btn btn btn-red">Перезвонить мне</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+        <div class="popup__overlay" id="closeModal"></div>
+    </div>
+</div>
         
 
 <form class="footer__form" action="" method="post">
@@ -698,7 +736,7 @@
             </div>
         </div>
         <div class="footer__item-map">
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7d3d1bbcbc380dcd2f2b2218399cb3d66d36d66ec746ea63a88a2e630a5d78c1&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false&amp;controls=false&_v=20220801192225"></script>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7d3d1bbcbc380dcd2f2b2218399cb3d66d36d66ec746ea63a88a2e630a5d78c1&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false&amp;controls=false&_v=20220804142409"></script>
         </div>
     </div>
 </form>
@@ -802,13 +840,13 @@
     </div>
 </footer>
     </div>
-    <!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=1a10af13-f087-47a6-b821-cb7b346b6c3d&width=100%&height=426&lang=ru_RU&_v=20220801192225" type="text/javascript">
+    <!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=1a10af13-f087-47a6-b821-cb7b346b6c3d&width=100%&height=426&lang=ru_RU&_v=20220804142409" type="text/javascript">
     </script> -->
-    <script src="//code.jquery.com/jquery.js?_v=20220801192225"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220801192225" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20220801192225"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220801192225"></script>
-    <script src="js/app.min.js?_v=20220801192225"></script>
+    <script src="//code.jquery.com/jquery.js?_v=20220804142409"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220804142409" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20220804142409"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220804142409"></script>
+    <script src="js/app.min.js?_v=20220804142409"></script>
 </body>
 
 </html>
