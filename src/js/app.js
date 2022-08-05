@@ -5,13 +5,15 @@ Ivanfunctions.isWebp()
 
 
 
-
+// Переменные
 const popup = document.querySelector('.popup')
 const iconMenu = document.querySelector(".header__menu-icon");
 const overlayMenu = document.querySelector(".header__overlay");
 const menuBody = document.querySelector(".header__menu")
 
 
+
+// Если есть ссылки, то производится логика
 if (iconMenu) {
     iconMenu.addEventListener("click", function (e) {
         iconMenu.classList.toggle("_active")
@@ -24,7 +26,7 @@ if (iconMenu) {
 }
 
 
-
+// Якорные ссылки
 const anchors = document.querySelectorAll('a.item-link')
 for (let anchor of anchors) {
     anchor.addEventListener('click', function (e) {
@@ -62,12 +64,35 @@ document.querySelectorAll("#closeModal").forEach((el) => {
 })
 
 
-// Кнопка Наверх 
-// $("a[href='#top']").click(function() {
-//     $("html, body").animate({ scrollTop: 0 }, "slow");
-//     return false;
-//   });
 
+// Кнопка Наверх 
+
+function trackScroll() {
+    var scrolled = window.pageYOffset
+    var coords = 500;
+    let btnTop = document.querySelector(".upbtn")
+    if (scrolled > coords) {
+        // btnTop.style.transform = 'scale(' + 1 + ')'
+        btnTop.classList.remove('_hidden')
+    }
+    if (scrolled < coords) {
+        // btnTop.style.transform = 'scale(' + 0 + ')'
+        btnTop.classList.add('_hidden')
+    }
+}
+window.addEventListener('scroll', trackScroll, { capture: true });
+
+$('.upbtn').on('click', function () {
+    $('html, body').animate({
+        scrollTop: 0
+    }, 500);
+    return false;
+});
+trackScroll()
+
+
+
+// Функционал для показа большего кол-ва блоков
 let loadMoreBtn = document.querySelector('#load-more-btn');
 let currentItem = 4;
 
@@ -85,14 +110,29 @@ loadMoreBtn.onclick = () => {
 
 }
 
+$(".show-more button").on("click", function () {
+    var $this = $(this);
+    var $content = $this.parent().prev("div.reviews__item-description");
+    var $itemContent = $this.parent().prev("div.reviews__item");
+    var linkText = $this.text();
+
+    if (linkText === "еще") {
+        linkText = "закрыть";
+        $content.addClass("showContent");
+    } else {
+        linkText = "еще";
+        $content.removeClass("showContent");
+    };
+
+    $this.text(linkText);
+})
+
+
+// Swiper слайдер
 $(document).ready(function () {
-    // Assign some jquery elements we'll need
     var $swiper = $(".swiper");
-    var $bottomSlide = null; // Slide whose content gets 'extracted' and placed
-    // into a fixed position for animation purposes
-    var $bottomSlideContent = null; // Slide content that gets passed between the
-    // panning slide stack and the position 'behind'
-    // the stack, needed for correct animation style
+    var $bottomSlide = null;
+    var $bottomSlideContent = null;
 
     var mySwiper = new Swiper(".mySwiper-1", {
         spaceBetween: 100,
@@ -123,9 +163,11 @@ $(document).ready(function () {
     });
 });
 
+
+// Слик слайдер
 $(".multiple-items").slick({
 
-    // normal options...
+    // Options
     iinfinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -133,7 +175,7 @@ $(".multiple-items").slick({
     centerMode: true,
     nextArrow: '<img class="reviews__next-arrow" src="img/ArrowRightSlider.png" alt="">',
     prevArrow: '<img class="reviews__prev-arrow" src="img/ArrowLeftSlider.png" alt="">',
-    // the magic
+    // Breakpoints
     responsive: [{
 
         breakpoint: 1024,
@@ -158,50 +200,3 @@ $(".multiple-items").slick({
 });
 
 
-$(".show-more button").on("click", function () {
-    var $this = $(this);
-    var $content = $this.parent().prev("div.reviews__item-description");
-    var $itemContent = $this.parent().prev("div.reviews__item");
-    var linkText = $this.text();
-
-    if (linkText === "еще") {
-        linkText = "закрыть";
-        $content.addClass("showContent");
-    } else {
-        linkText = "еще";
-        $content.removeClass("showContent");
-    };
-
-    $this.text(linkText);
-})
-
-
-// ymaps.ready(function () {
-//     var myMap = new ymaps.Map('map', {
-//         center: [47.222078, 39.720358],
-//         zoom: 9,
-//         controls: []
-//     }, {
-//         searchControlProvider: 'yandex#search'
-//     }),
-
-//         myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-//             hintContent: 'Чистопрудов',
-//             balloonContent: 'Наша компания'
-//         }, {
-//             // Опции.
-//             // Необходимо указать данный тип макета.
-//             iconLayout: 'default#image',
-//             // Своё изображение иконки метки.
-//             iconImageHref: 'img/iconMap.png',
-//             // Размеры метки.
-//             iconImageSize: [65, 85],
-//             // Смещение левого верхнего угла иконки относительно
-//             // её "ножки" (точки привязки).
-//             iconImageOffset: [-33, -65]
-//         });
-
-
-//     myMap.geoObjects
-//         .add(myPlacemark)
-// });

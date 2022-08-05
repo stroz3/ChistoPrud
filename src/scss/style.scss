@@ -36,7 +36,6 @@ body {
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    overflow-x: hidden;
     background-color: #F3F7FF;
 }
 input,
@@ -82,6 +81,8 @@ h6 {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+
 }
 
 .main{
@@ -100,6 +101,36 @@ $desc-text:#CDD4E9;
 $subtitle-text:#647193;
 
 /*Переменные*/
+
+
+
+/*TopButton*/
+.upbtn {
+    z-index: 9999;
+    width: 70px;
+    height: 70px;
+    color: #FFF;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    border-radius:50%;
+    transform: scale(1);
+    transition: all .7s ease-in-out;
+    background-position: 24px center;
+    background-repeat: no-repeat;
+    background-color: $white;
+    background-image: url(/img/arrowTop.png)}
+.upbtn._hidden{
+    transform: scale(0) !important;
+}
+.upbtn:hover {
+    transform: scale(1.2);
+}
+/*TopButton*/
+
+
+
 
 /*Готовые стили*/
 
@@ -132,7 +163,7 @@ $subtitle-text:#647193;
 .btn-transperent{
     background-color: $red-hover-link;
     &:hover{
-        background: transparent;
+        background: $white;
         color: $red-hover-link;
         border: 1px solid $red-hover-link ;
     }
@@ -970,13 +1001,12 @@ $subtitle-text:#647193;
 /*Footer*/ 
 .footer {   
     &__form {
-    background: $white;
-
+        background: $white;
+        position: relative;
     }
 
     &__form-wrapper {
         display: flex;
-        justify-content: flex-end;
     }
     &__form-container{
         display: flex;
@@ -1033,7 +1063,10 @@ $subtitle-text:#647193;
         overflow: hidden;
         width: 60%;
         border-radius: 200px 0px 0px 0px ;
+        position: absolute;
+        right: 0;
     }
+    
     &__map{
         width: 100%;
     }
@@ -1155,6 +1188,7 @@ $subtitle-text:#647193;
     border: 1px solid #adb5bd;
     border-radius: 0.25em;
     margin-right: 0.5em;
+    margin-bottom: auto;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50% 50%;
@@ -1321,8 +1355,8 @@ color: #647193;
     z-index:100;
     opacity: 0;
     transition-property: opacity, height;
-    transition-duration: 1s, 0s;
-    transition-delay: 0s, 0.7s;
+    transition-duration: 0.4s, 0s;
+    transition-delay: 0s, 0.3s;
     &__overlay{
         position: absolute;
         width: 100%;
@@ -1655,7 +1689,9 @@ color: #647193;
         }
     }
     .footer__item-map{
-        width: 100%;
+        width: 105%;
+        position: static;
+        margin-left: -20px;
     }
     .company{
         &__item{
@@ -1680,6 +1716,11 @@ color: #647193;
     }
     .popup__form-btn{
         right: 0px;
+    }
+    .upbtn{
+        width: 55px;
+        height: 55px;
+        background-position: 17px center;
     }
 }
 @media (max-width: 1000px) {
@@ -2288,7 +2329,9 @@ color: #647193;
             font-size: 25px;
         }
         }
-        
+        .footer__item-map{
+            width: 108%;
+        }
 }
 @media (max-width: 480px) {
     .header{
@@ -2401,4 +2444,7 @@ color: #647193;
                 left: 0 !important;
                 right: 0 !important;
               }
+              .footer__item-map{
+                width: 112%;
+            }
 }
