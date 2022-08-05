@@ -85,7 +85,7 @@ window.addEventListener('scroll', trackScroll, { capture: true });
 $('.upbtn').on('click', function () {
     $('html, body').animate({
         scrollTop: 0
-    }, 500);
+    }, 400);
     return false;
 });
 trackScroll()

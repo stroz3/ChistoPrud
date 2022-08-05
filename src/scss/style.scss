@@ -120,7 +120,7 @@ $subtitle-text:#647193;
     background-position: 24px center;
     background-repeat: no-repeat;
     background-color: $white;
-    background-image: url(/img/arrowTop.png)}
+    background-image: url(../img/arrowTop.png)}
 .upbtn._hidden{
     transform: scale(0) !important;
 }
@@ -189,7 +189,7 @@ $subtitle-text:#647193;
 
 /*Header*/ 
 .header {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -261,7 +261,7 @@ $subtitle-text:#647193;
 
 .company {
     position: relative;
-    // margin-top: 80px;
+    margin-top: 80px;
     background-color: $background-color;
     border-radius: 0px 0px 0px 325px;
     &__wrapper {
@@ -1003,6 +1003,7 @@ $subtitle-text:#647193;
     &__form {
         background: $white;
         position: relative;
+        padding-bottom: 20px;
     }
 
     &__form-wrapper {
@@ -1687,6 +1688,9 @@ color: #647193;
             margin: 0;
             width: 60%;
         }
+    }
+    .footer__form{
+        padding-bottom: 0;
     }
     .footer__item-map{
         width: 105%;
