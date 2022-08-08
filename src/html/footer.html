@@ -1,6 +1,6 @@
 
 
-<form class="footer__form" action="" method="post">
+<form class="footer__form" action="/send.php" method="post">
     <div class="container">
         <div class="footer__form-wrapper">
             <div class="footer__form-container">
@@ -10,19 +10,20 @@
                         Заполните форму и мы вам перезвоним
                     </div>
                     <div class="footer__item-input">
-                        <input required type="text" placeholder="Имя" id="">
+                        <input required type="text" placeholder="Имя"  type="text" name="name">
                     </div>
                     <div class="footer__item-input">
-                        <input required type="tel" placeholder="Телефон" id="">
+                        <input required type="tel" placeholder="Телефон"  type="tel" name="phone">
                     </div>
                     <div class="footer__item-input">
-                        <input required type="mail" placeholder="gurovafe@gmail.com" id="">
+                        <input required type="mail" placeholder="gurovafe@gmail.com"  type="email" name="email" >
                     </div>
                     <div class="footer__item-input check">
                         <input required type="checkbox" class="custom-checkbox" placeholder="gurovafe@gmail.com" id="footer__item-checkbox">
                         <label for="footer__item-checkbox" class="footer__item-label">Я согласен с условием обработки персональных данных</label>
                     </div>
-                    <button class="footer__item-btn btn btn-transperent">Перезвонить мне</button>
+                    <button class="footer__item-btn btn btn-transperent" type="submit">Перезвонить мне</button>
+                    <input type="hidden" name="act" value="order">
                 </div>
             </div>
             <div class="footer__item-map">

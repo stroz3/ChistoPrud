@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220805194507"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220808085315"/>
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20220805194507"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20220808085315"/>
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css?_v=20220805194507"/>
-    <link rel="stylesheet" href="css/style.min.css?_v=20220805194507">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css?_v=20220808085315"/>
+    <link rel="stylesheet" href="css/style.min.css?_v=20220808085315">
     <title>Главная</title>
 </head>
 
@@ -30,32 +30,32 @@
                 <nav class="header__nav">
                     <ul class="header__ul">
                         <li class="header__item">
-                            <a href="index.html" class="header__item-link">
+                            <a href="index.html" class="header__item-link item-link">
                                 Главная
                             </a>
                         </li>
                         <li class="header__item">
-                            <a  href="#services" class="header__item-link item-link">
+                            <a  href="#services" class="header__item-link item-link item-link">
                                 Услуги
                             </a>
                         </li>
                         <li class="header__item">
-                            <a href="#about" class="header__item-link item-link">
+                            <a href="#about" class="header__item-link item-link item-link">
                                 О компании
                             </a>
                         </li>
                         <li class="header__item">
-                            <a href="#cases" class="header__item-link item-link">
+                            <a href="#cases" class="header__item-link item-link item-link">
                                 Кейсы
                             </a>
                         </li>
                         <li class="header__item">
-                            <a href="#command" class="header__item-link item-link">
+                            <a href="#command" class="header__item-link item-link item-link">
                                 Команда
                             </a>
                         </li>
                         <li class="header__item">
-                            <a href="#reviews" class="header__item-link item-link">
+                            <a href="#reviews" class="header__item-link item-link item-link">
                                 Отзывы
                             </a>
                         </li>
@@ -63,7 +63,7 @@
                             <a href="tel:89652338714" class="header__contact-link link-mobile">8 (965) 233 87-14</a>
                         </li>
                         <li class="header__item item-mobile">
-                            <button class="header__btn btn btn-transperent ">
+                            <button class="header__btn btn btn-transperent "  id="openModal">
                                 Заказать звонок 
                             </button>
                         </li>
@@ -684,22 +684,23 @@
                     <picture><source srcset="img/Rectangle17.webp" type="image/webp"><img src="img/Rectangle17.png" class="popup__item-img" alt=""></picture>    
                 </div>
                 <div class="popup__wrapper-item">
-                    <form class="popup__item-form" action="" method="post">
+                    <form class="popup__item-form" action="/send.php" method="post">
                         <div class="popup__form-item footer__form-item">
                                 <div class="popup__form-input footer__item-input">
-                                    <input required type="text" placeholder="Имя" id="">
+                                    <input required type="text" placeholder="Имя" type="text" name="name">
                                 </div>
                                 <div class="popup__form-input footer__item-input">
-                                    <input required type="tel" placeholder="Телефон" id="">
+                                    <input required type="tel" placeholder="Телефон" type="tel" name="phone">
                                 </div>
                                 <div class="popup__form-input footer__item-input">
-                                    <input required type="mail" placeholder="gurovafe@gmail.com" id="">
+                                    <input required type="mail" placeholder="gurovafe@gmail.com" type="email" name="email">
                                 </div>
                                 <div class="popup__form-input footer__item-input check">
                                     <input required type="checkbox" class="custom-checkbox" id="popup__item-checkbox">
                                     <label for="popup__item-checkbox" class="footer__item-label">Я согласен с условием обработки персональных данных</label>
                                 </div>
-                                <button class="popup__form-btn footer__item-btn btn btn-red">Перезвонить мне</button>
+                                <button class="popup__form-btn footer__item-btn btn btn-red"  type="submit">Перезвонить мне</button>
+                                <input type="hidden" name="act" value="order">
                         </div>
                     </form>
                 </div>
@@ -713,7 +714,7 @@
 
         
 
-<form class="footer__form" action="" method="post">
+<form class="footer__form" action="/send.php" method="post">
     <div class="container">
         <div class="footer__form-wrapper">
             <div class="footer__form-container">
@@ -723,23 +724,24 @@
                         Заполните форму и мы вам перезвоним
                     </div>
                     <div class="footer__item-input">
-                        <input required type="text" placeholder="Имя" id="">
+                        <input required type="text" placeholder="Имя"  type="text" name="name">
                     </div>
                     <div class="footer__item-input">
-                        <input required type="tel" placeholder="Телефон" id="">
+                        <input required type="tel" placeholder="Телефон"  type="tel" name="phone">
                     </div>
                     <div class="footer__item-input">
-                        <input required type="mail" placeholder="gurovafe@gmail.com" id="">
+                        <input required type="mail" placeholder="gurovafe@gmail.com"  type="email" name="email" >
                     </div>
                     <div class="footer__item-input check">
                         <input required type="checkbox" class="custom-checkbox" placeholder="gurovafe@gmail.com" id="footer__item-checkbox">
                         <label for="footer__item-checkbox" class="footer__item-label">Я согласен с условием обработки персональных данных</label>
                     </div>
-                    <button class="footer__item-btn btn btn-transperent">Перезвонить мне</button>
+                    <button class="footer__item-btn btn btn-transperent" type="submit">Перезвонить мне</button>
+                    <input type="hidden" name="act" value="order">
                 </div>
             </div>
             <div class="footer__item-map">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A46ba9ebb57672d1f892a0dadfa4ff4bdd3c3a7971373dafb46bcc3cc28d8dd47&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true&amp;controls=false&_v=20220805194507"></script>
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A46ba9ebb57672d1f892a0dadfa4ff4bdd3c3a7971373dafb46bcc3cc28d8dd47&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true&amp;controls=false&_v=20220808085315"></script>
             </div>
         </div>
     </div>
@@ -836,11 +838,11 @@
     </div>
 </footer>
     </div>
-    <script src="//code.jquery.com/jquery.js?_v=20220805194507"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220805194507" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20220805194507"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220805194507"></script>
-    <script src="js/app.min.js?_v=20220805194507"></script>
+    <script src="//code.jquery.com/jquery.js?_v=20220808085315"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220808085315" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20220808085315"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220808085315"></script>
+    <script src="js/app.min.js?_v=20220808085315"></script>
 </body>
 
 </html>

@@ -950,12 +950,12 @@ $subtitle-text:#647193;
         
     }
     &__next-arrow{
-        left: 67px !important;
+        left: 130px !important;
         bottom: -70px;
         cursor: pointer;
     }
     &__prev-arrow{
-        left: -167px !important;
+        left: -130px !important;
         bottom: -100px;
     }
     &__next-arrow, &__prev-arrow{
@@ -1945,11 +1945,11 @@ color: #647193;
         padding-bottom: 140px;
       }
       .swiper-button-next{
-        left: 67px;
+        left: 130px;
         bottom: -244px;
       }
       .swiper-button-prev{
-          left: -167px;
+          left: -130px;
           bottom: -302px;
       }
       
@@ -2306,6 +2306,7 @@ color: #647193;
     }
     .swiper{
         padding-bottom: 75px;
+        padding-left:30px;
     }
     .advantages{
         &__item{    
@@ -2393,7 +2394,7 @@ color: #647193;
         width: 365px;
     }
     .swiper-slide{
-        width: 265px !important;
+        width: 285px !important;
     }
     .footer__body{
         flex-direction: column;

@@ -601,22 +601,23 @@
                     <img src="img/Rectangle17.png" class="popup__item-img" alt="">    
                 </div>
                 <div class="popup__wrapper-item">
-                    <form class="popup__item-form" action="" method="post">
+                    <form class="popup__item-form" action="/send.php" method="post">
                         <div class="popup__form-item footer__form-item">
                                 <div class="popup__form-input footer__item-input">
-                                    <input required type="text" placeholder="Имя" id="">
+                                    <input required type="text" placeholder="Имя" type="text" name="name">
                                 </div>
                                 <div class="popup__form-input footer__item-input">
-                                    <input required type="tel" placeholder="Телефон" id="">
+                                    <input required type="tel" placeholder="Телефон" type="tel" name="phone">
                                 </div>
                                 <div class="popup__form-input footer__item-input">
-                                    <input required type="mail" placeholder="gurovafe@gmail.com" id="">
+                                    <input required type="mail" placeholder="gurovafe@gmail.com" type="email" name="email">
                                 </div>
                                 <div class="popup__form-input footer__item-input check">
                                     <input required type="checkbox" class="custom-checkbox" id="popup__item-checkbox">
                                     <label for="popup__item-checkbox" class="footer__item-label">Я согласен с условием обработки персональных данных</label>
                                 </div>
-                                <button class="popup__form-btn footer__item-btn btn btn-red">Перезвонить мне</button>
+                                <button class="popup__form-btn footer__item-btn btn btn-red"  type="submit">Перезвонить мне</button>
+                                <input type="hidden" name="act" value="order">
                         </div>
                     </form>
                 </div>

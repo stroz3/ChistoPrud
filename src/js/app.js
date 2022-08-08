@@ -27,38 +27,38 @@ if (iconMenu) {
 
 
 // Якорные ссылки
-const anchors = document.querySelectorAll('a.item-link')
-for (let anchor of anchors) {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault()
-        const blockID = anchor.getAttribute('href')
-        if (iconMenu.classList.contains('_active')) {
-            iconMenu.classList.remove("_active");
-            menuBody.classList.remove("_active");
-        }
 
-        document.querySelector(blockID).scrollIntoView({
-            behavior: 'smooth',
-            block: "start", inline: "nearest"
-        })
+var $page = $('html, body');
+$('a[href*="#"]').click(function () {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top - 20
+    }, 400);
+    if (iconMenu.classList.contains('_active')) {
+        iconMenu.classList.remove("_active");
+        menuBody.classList.remove("_active");
+    }
+    return false;
+});
 
-    })
-}
 
 
 //Открытие pop-up
 function openPopup() { //открытие popup
     popup.classList.add('popup_opened');
+    document.querySelector('body').style.overflowY = "hidden"
 }
 
 // Закрытие pop-up
 function closePopup() { //закрытие popup
     popup.classList.remove('popup_opened');
+    document.querySelector('body').style.overflowY = "scroll"
 }
 
 
 // Кнопки на закрытие и открытие popUp
-document.querySelector("#openModal").addEventListener("click", openPopup)
+document.querySelectorAll("#openModal").forEach((el) => {
+    el.addEventListener("click", openPopup)
+})
 document.querySelectorAll("#closeModal").forEach((el) => {
     el.addEventListener("click", closePopup)
 })
